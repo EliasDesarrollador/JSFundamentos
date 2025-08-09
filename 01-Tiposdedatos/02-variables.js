@@ -1,14 +1,18 @@
+// Fichero de Explicacion de Variables
+// Una variable es un contenedor de informacion que puede cambiar durante la ejecucion del programa
+// Se declara con la palabra reservada let
+// Ejemplos:
 
-/*
 let saludo = "Hola Desarrolladores !!";
- saludo = "Hola Desarroladores!!";
+let mensaje = "Bienvenidos!...";
+let nombre = "Elías Ortiz";
+let edad = 22;
+let ciudad ="Fernando de la Mora";
+let profesion = "Desarrollador";
 
-let mensaje = "Hola ";
-mensaje = 12345;
 console.log(saludo);
 console.log(mensaje);
-
-
+console.log("Mi nombre es:",nombre,"tengo :",edad ,"años ", "vivo en :",ciudad ,"y soy ",profesion);
 
 // Number
 let n = 1234;
@@ -19,10 +23,10 @@ console.log(n);
 alert(NaN + 1 );
 alert( 3 * NaN );
 alert( " No es un numero" / 2 - 1 );
-alert.(NaN ** 0 es 1 ); */
-
+alert(NaN ** 0 ,"es", 1 );
+/*
 let name = "Ilya";
-alert(`Hola ${name}`);
+alert(`Hola ${name}`);*/
 
 
 // Programa Saludo 
