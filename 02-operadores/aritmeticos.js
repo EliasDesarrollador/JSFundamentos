@@ -40,3 +40,25 @@ console.log("Resultado Division :", resultDivision);
 console.log("Resultado Modulo :",resultModulo);
 console.log("Resultado Exponente:",resultExponente);
 
+// Ejercios de operadores aritméticos con informacion que introduce el usuario
+ const prompt = require('prompt-sync')();
+
+ let num1 = parseInt(prompt('Ingrese el primer número: '));
+ let num2 = parseInt(prompt('Ingrese el segundo número: '));
+ let suma = num1 + num2;
+ let resta = num1 + num2;
+ let multiplicacion = num1 * num2;
+ let division = num1 / num2;
+ let modulo = num1 % num2; 
+ let exponente = num1 ** num2;
+ console.log("Numero 1 : ",num1);
+ console.log("Numero 2 :", num2);
+ console.log("Resultado Suma :",suma);
+ console.log("Resultado Resta :",resta);
+ console.log("Resultado Multiplicacion :",multiplicacion);
+ console.log("Resultado Division : ",division);
+ console.log("Resultado Modulo :",modulo);
+ console.log("Resultado Exponente :",exponente);
+
+
+
